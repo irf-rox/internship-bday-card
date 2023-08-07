@@ -30,15 +30,18 @@
       margin-bottom:100px;
     }
     
-    .flex{
-      width:480px;
+    .flx{
+      width: 430px;
       height: 260px;
     }
     #flx-holder{
       display: flex;
+      width: 1500px;
       flex-direction: row;
       flex-wrap: wrap;
       max-width: fit-content;
+      flex-grow: 0;
+      flex-shrink: 0;
       gap: 10px;
     }
     </style>
@@ -48,7 +51,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <div id="flx-holder">
     
-      <div class="flex f1">
+      <div class="flx">
         <div id="bluebox">
           <h2>Happy Birthday</h2>
         </div>
@@ -64,7 +67,7 @@
         </div>
       </div>
 
-      <div class="flex f2">
+      <div class="flx">
         <div id="bluebox">
           <h2>Happy Birthday</h2>
         </div>
@@ -80,7 +83,7 @@
         </div>
       </div>
 
-      <div class="flex f3">
+      <div class="flx">
         <div id="bluebox">
           <h2>Happy Birthday</h2>
         </div>
